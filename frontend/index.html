@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob - AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 Bob</h1>
+            <p>Your AI Assistant</p>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <p>Hello! I'm Bob. How can I help you today?</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-area">
+            <form id="chatForm">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Type your message..."
+                    autocomplete="off"
+                >
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
